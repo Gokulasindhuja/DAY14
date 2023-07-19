@@ -2,7 +2,7 @@
 
 let display = document.getElementById("display");
 let countDown = 10;
-let message = "Happy Birthday";
+let message = "Happy Independence Day";
 setTimeout(() => {
   display.innerText = countDown;
   countDown--;
@@ -35,7 +35,7 @@ setTimeout(() => {
                     countDown--;
                     setTimeout(() => {
                       display.innerText = message;
-                      if (display.innerText == "Happy Birthday") {
+                      if (display.innerText == "Happy Independence Day") {
                         display.classList.add("zoom");
                       }
                     }, 3000);
